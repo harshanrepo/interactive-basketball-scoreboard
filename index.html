@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BasketBall Scoreboard</title>
+  <link href="index.css" rel="stylesheet">
+  <link rel="shortcut icon" href="image/icons8-basketball-100.png" type="image/png">
+</head>
+
+<body>
+  <main>
+    <div class="outer">
+      <div class="first">
+        <h1>HOME</h1>
+        <div class="score">
+          <h2 id="home-el">0</h2>
+        </div>
+        <div class="btn">
+          <button onclick="hone()">+1</button>
+          <button onclick="htwo()">+2</button>
+          <button onclick="hthree()">+3</button>
+        </div>
+      </div>
+      <div class="first">
+        <h1>GUEST</h1>
+        <div class="score">
+          <h2 id="guest-el">0</h2>
+        </div>
+        <div class="btn">
+          <button onclick="gone()">+1</button>
+          <button onclick="gtwo()">+2</button>
+          <button onclick="gthree()">+3</button>
+        </div>
+      </div>
+    </div>
+    <button class="reset" onclick="reset()">Reset</button>
+  </main>
+  <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Poppins:wght@300;400;500;600&display=swap");
+
+@font-face {
+  font-family: "DigitalNumbers-Regular";
+  src: url("font/DigitalNumbers-Regular.ttf");
+}
+body {
+  text-align: center;
+  height: 95vh;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("image/basketball-game-court-background.webp");
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.outer {
+  height: 330px;
+  border: 1px solid #b7c6be;
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border-radius: 10px;
+}
+.first {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+.score {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  border: 2px solid black;
+  width: 140px;
+  height: 130px;
+  color: #ad8769;
+  background-color: black;
+  border-radius: 10px;
+}
+h2 {
+  font-family: "DigitalNumbers-Regular";
+  font-size: 80px;
+}
+.btn {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+button {
+  color: white;
+  background-color: rgba(94, 67, 63, 0.7);
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  font-family: "DigitalNumbers-Regular";
+}
+.reset {
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+  color: white;
+  background-color: rgba(94, 67, 63, 0.7);
+  padding: 8px 16px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+}
