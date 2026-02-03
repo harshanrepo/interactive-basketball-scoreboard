@@ -17,8 +17,8 @@ This project allows users to track and update scores for a basketball game in re
 ## 📂 Project Structure
 basketball-scoreboard
 ── index.html
-── style.css
-── script.js
+── index.css
+── index.js
 
 🌐 Live Demo
 
