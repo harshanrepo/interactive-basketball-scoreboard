@@ -15,21 +15,21 @@ This project allows users to track and update scores for a basketball game in re
 - JavaScript (DOM Manipulation)
 
 ## 📂 Project Structure
-basketball-scoreboard/
-├── index.html
-├── style.css
-└── script.js
+basketball-scoreboard
+── index.html
+── style.css
+── script.js
 
 🌐 Live Demo
 
-(Add GitHub Pages link here)
+https://harshanrepo.github.io/interactive-basketball-scoreboard/
 
 📖 What I Learned
 
-Handling user interactions with JavaScript
+• Handling user interactions with JavaScript
 
-DOM selection and updates
+• DOM selection and updates
 
-Structuring a small front-end project
+• Structuring a small front-end project
 
-Styling layouts using CSS
+• Styling layouts using CSS
